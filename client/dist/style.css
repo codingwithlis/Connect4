@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lucida Sans Unicode';
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-spacing: 0px 0px;
+  }
+  
+  .button {
+    font-size: 25px;
+    font-family: Comic Sans MS;
+    background-color: white;
+    color: #1dbab4;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #1dbab4;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  .cell {
+    height: 70px;
+    width: 70px;
+    background-color: #1dbab4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 35px;
+    color: #1dbab4;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+  }
+  
+  .background {
+    height: 60px;
+    width: 60px;
+    background-color: #FFF;
+  } 
+
+  .tomato {
+    width: 60px;
+    height: 60px;
+    background: tomato;
+  }
+
+   .royal {
+    height: 60px;
+    width: 60px;
+    background-color: royalblue;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    background-color: white;
+    color: #1dbab4;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
