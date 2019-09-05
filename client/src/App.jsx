@@ -14,9 +14,9 @@ class App extends React.Component {
             let row = [];
             for (let o = 0; o < 7; o ++){
                 row.push(null)
-            }
+            };
             board.push(row);
-        }
+        };
         this.setState({
             board,
             playingNow: this.state.player1,
@@ -36,8 +36,8 @@ class App extends React.Component {
                     if (!board[row][col]) {
                         board[row][col] = this.state.playingNow;
                         break;
-                    }
-                }
+                    };
+                };
           let result = this.checkAll(board);
             if (result === this.state.player1) {
                 this.setState({ board, gameOver: true, message: 'Red Wins !' });
@@ -47,10 +47,10 @@ class App extends React.Component {
                 this.setState({ board, gameOver: true, message: 'It is a Tie ! '});
             } else {
                 this.setState({ board, playingNow: this.switchPlayers() });
-            }
+            };
             } else {
             this.setState({ message: 'Game over. Click PLAY to try again!' });
-            }
+            };
         };
       
     vertical(board) {

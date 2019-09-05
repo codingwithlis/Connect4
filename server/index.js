@@ -1,5 +1,9 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const port = 3000;
+const PORT = 3001;
 
-app.listen(port, () => console.log(`Listening on port ${port}!`));
+app.use(express.static(__dirname + "/../client/dist"));
+
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
+});
